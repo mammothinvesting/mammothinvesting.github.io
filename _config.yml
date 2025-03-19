@@ -7,4 +7,4 @@ plugins:
 title: Mammoth Investing Support
 description: Support documentation and FAQs for Mammoth Investing users.
 baseurl: "" # Leave empty for user sites (username.github.io), or set to "/repo-name" for project sites
-url: "https://username.github.io" # Replace with your GitHub Pages URL
+url: "https://mammothinvesting.github.io" # Replace with your GitHub Pages URL
