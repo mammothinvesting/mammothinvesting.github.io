@@ -1,51 +1,79 @@
-<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Document - Mammoth Investing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Support Document</h1>
+        </header>
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    {% include head-custom.html %}
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <ul>
-            <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-            {% if site.show_downloads %}
-              <li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
-              <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
-              <li class="title">DOWNLOADS</li>
-            {% endif %}
-          </ul>
-        </nav>
-      </div><!-- end header -->
+        <section>
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <dl>
+                <dt>How accurate are the stock forecasts?</dt>
+                <dd>Our stock forecasts are based on historical data and advanced AI algorithms, but they are not guarantees of future performance. Market conditions can change rapidly, and actual results may vary.</dd>
 
-    <div class="wrapper">
+                <dt>How do I reset my password?</dt>
+                <dd>You can reset your password by clicking the "Forgot Password?" link on the Sign in/Sign up screen. Follow the instructions to reset your password using the email address associated with your account.</dd>
 
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
-        </div>
+                <dt>Is my personal data secure?</dt>
+                <dd>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with our Privacy Policy.</dd>
 
-        {{ content }}
+                <dt>How do I cancel my subscription?</dt>
+                <dd>
+                    Cancel a subscription
+                    <ol>
+                        <li>Go to Settings > [your name] > Subscriptions.</li>
+                        <li>Tap a subscription, then tap Cancel Subscription or Cancel All Services.</li>
+                    </ol>
+                </dd>
 
-      </section>
+                <dt>How do I contact support?</dt>
+                <dd>You can contact our support team by emailing us at <a href="mailto:sahilsingh@mammothinvesting.com">sahilsingh@mammothinvesting.com</a>. We typically respond within 24-48 hours.</dd>
+            </dl>
+        </section>
 
+        <section>
+            <h2>Troubleshooting</h2>
+            <h3>App Crashing or Issues Getting the Forecast or Analysis</h3>
+            <ul>
+                <li>Ensure you have the latest version of the app installed.</li>
+                <li>Try restarting your device.</li>
+                <li>Check your internet connection.</li>
+                <li>If the issue persists, contact support with details about when the crash occurs.</li>
+            </ul>
+
+            <h3>Login Issues</h3>
+            <ul>
+                <li>Make sure you are using the correct email address and password.</li>
+                <li>If you forgot your password, reset it using the "Forgot Password" link.</li>
+                <li>Check your internet connection.</li>
+                <li>If you are still unable to log in, contact support.</li>
+            </ul>
+
+            <h3>Data Not Updating</h3>
+            <ul>
+                <li>Close the app completely and open it again.</li>
+                <li>Ensure you have a stable internet connection.</li>
+                <li>Try refreshing the data within the app.</li>
+                <li>If the issue persists, contact support at <a href="mailto:sahilsingh@mammothinvesting.com">sahilsingh@mammothinvesting.com</a>.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>General Information</h2>
+            <p><strong>Minimum iOS Version:</strong> iOS 18</p>
+        </section>
+
+        <section>
+            <h2>Contact Information</h2>
+            <p>For further assistance, please contact us at <a href="mailto:sahilsingh@mammothinvesting.com">sahilsingh@mammothinvesting.com</a>.</p>
+        </section>
     </div>
-  </body>
+</body>
 </html>
